@@ -7,6 +7,7 @@ void printQR(String message) {
 
   // new line
   thermalPrinter.print("\n");
+  thermalPrinter.print("\n");
 
   // zero line spacing
   thermalPrinter.write(27);
@@ -43,6 +44,7 @@ void printQR(String message) {
   thermalPrinter.write(48);
 
   // new line
+  thermalPrinter.print("\n");
   thermalPrinter.print("\n");
   
 }
